@@ -1,4 +1,4 @@
-use std::io::prelude::*;
+use std::io::Read;
 use std::net::TcpStream;
 
 pub fn read_stream_line(stream: &mut TcpStream) -> Vec<u8> {
